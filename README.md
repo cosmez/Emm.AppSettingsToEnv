@@ -13,9 +13,9 @@ dotnet tool install --global Emm.AppSettingsToEnv
 
 ```bash
 # create environment variables for the user
-appsettingstoenv --input appsettings.json
+appsettingstoenv --json appsettings.json
 
 # create environment variables for the machine, requires elevation (sudo)
-appsettingstoenv --input appsettings.json --level machine
+appsettingstoenv --json appsettings.json --level machine
 ```
 
